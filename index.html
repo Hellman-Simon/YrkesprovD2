@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lottery Game</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link href="style.css" rel="stylesheet">
+    </head>
+<body>
+    <div class="box">
+        <div class="title">
+        <h1>Lottery Game</h1>
+        </div>
+        <div class="LotteryContainer">
+        <label for="lotto">Select Lottery:</label>
+        <select id="lotto">
+            <option value="lotto">Lotto</option>
+            <option value="eurojackpot">EuroJackpot</option>
+            <option value="vikinglotto">VikingLotto</option>
+            <option value="keno">Keno</option>
+        </select>
+        <br><br>
+        <label for="num-picks">Number of Picks:</label>
+        <select id="num-picks">
+            <option value="7">7</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="10">10</option>
+        </select>
+        <br><br>
+        <label for="num-bonus">Number of Bonus Picks:</label>
+        <select id="num-bonus">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="1">1</option>
+            <option value="0">0</option>
+        </select>
+        <br><br>
+        <label for="num-rows">Number of Rows:</label>
+        <select id="num-rows">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br><br>
+        <button class="generate-btn" id="generate-btn">Generate Numbers</button>
+        <br><br>
+        </div>
+        <div class="result" id="results"></div>
+        <script src="script.js"></script>
+    </div>
+    </body>
+</html>
